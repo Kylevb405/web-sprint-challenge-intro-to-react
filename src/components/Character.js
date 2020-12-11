@@ -11,7 +11,6 @@ const Card = styled.div`
     justify-content: space-evenly;
     
 `
-
 const CharacterInfo = styled.div`
 
     align-self: center;
@@ -20,7 +19,6 @@ const CharacterInfo = styled.div`
     background-color : ${props => props.theme.primaryColor};
 
 `
-
 const Character = ({CharacterData}) => {
     
     return(
